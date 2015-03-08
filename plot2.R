@@ -8,7 +8,7 @@ plot2 <- function(){
   powerstat <- cbind(powerstat,datetime)
   
   png("plot2.png", width=480,height=480)
-  plot(powerstat$datetime,powerstat$Global_active_power,lty=1,type="l",ylab="Global Active Power (kilowatts)",xlab="")
+  plot(powerstat$datetime,powerstat$Global_active_power,lty=1,type="l",ylab="Global Active Power (kilowatts)",xlab=" ")
   dev.off()
   
 }
